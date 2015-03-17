@@ -15,6 +15,7 @@
 		6DE4D2B81AB88421003D84CE /* DragonFashionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4D2B71AB88421003D84CE /* DragonFashionTests.m */; };
 		6DE4D2C31AB88432003D84CE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4D2C21AB88432003D84CE /* HomeViewController.m */; };
 		6DE4D2C61AB88B6E003D84CE /* Dragon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4D2C51AB88B6E003D84CE /* Dragon.m */; };
+		6DE4D2C91AB898D2003D84CE /* ClothingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE4D2C81AB898D2003D84CE /* ClothingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		6DE4D2C21AB88432003D84CE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6DE4D2C41AB88B6E003D84CE /* Dragon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dragon.h; sourceTree = "<group>"; };
 		6DE4D2C51AB88B6E003D84CE /* Dragon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dragon.m; sourceTree = "<group>"; };
+		6DE4D2C71AB898D2003D84CE /* ClothingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothingViewController.h; sourceTree = "<group>"; };
+		6DE4D2C81AB898D2003D84CE /* ClothingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				6DE4D2A81AB88421003D84CE /* Images.xcassets */,
 				6DE4D2AA1AB88421003D84CE /* LaunchScreen.xib */,
 				6DE4D29B1AB88421003D84CE /* Supporting Files */,
+				6DE4D2C71AB898D2003D84CE /* ClothingViewController.h */,
+				6DE4D2C81AB898D2003D84CE /* ClothingViewController.m */,
 			);
 			path = DragonFashion;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DE4D2C91AB898D2003D84CE /* ClothingViewController.m in Sources */,
 				6DE4D2A11AB88421003D84CE /* AppDelegate.m in Sources */,
 				6DE4D29E1AB88421003D84CE /* main.m in Sources */,
 				6DE4D2C61AB88B6E003D84CE /* Dragon.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "Dragon.h"
+#import "ClothingViewController.h"
 
 @interface HomeViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -44,6 +45,16 @@
     cell.detailTextLabel.text = dragon.signatureClothingItem;
 
     return cell;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UITableViewCell *)cell {
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+    Dragon *dragon = [self.dragons objectAtIndex:indexPath.row];
+    ClothingViewController *vc = segue.destinationViewController;
+    vc.dragon = dragon;
+    vc.title = dragon.fullName;
+    
+    
 }
 
 @end
