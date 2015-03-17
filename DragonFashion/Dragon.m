@@ -10,4 +10,12 @@
 
 @implementation Dragon
 
+- (instancetype)initWithFullName:(NSString *)name andClothingItem:(NSString *)clothingItem {
+    if ((self = [super init])) {
+        self.fullName = name;
+        self.signatureClothingItem = clothingItem;
+    }
+    return self;
+}
+
 @end

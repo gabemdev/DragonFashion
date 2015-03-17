@@ -19,10 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Dragon *dragonOne = [Dragon new];
-    dragonOne.fullName = @"Smaug";
-    dragonOne.signatureClothingItem = @"High Heels";
-    self.dragons = [NSArray arrayWithObjects:dragonOne, nil];
+    Dragon *dragonOne = [[Dragon alloc] initWithFullName:@"Smaug" andClothingItem:@"High Heels"];
+    Dragon *dragonTwo = [[Dragon alloc] initWithFullName:@"Spyro" andClothingItem:@"Firefly"];
+    Dragon *dragonThree = [[Dragon alloc] initWithFullName:@"Trogdor" andClothingItem:@"Thatched Roof Cottages"];
+    Dragon *dragonFour = [[Dragon alloc] initWithFullName:@"Ben" andClothingItem:@"Beard"];
+
+    self.dragons = @[dragonOne, dragonTwo, dragonThree, dragonFour];
+
+    for (Dragon *dragon in self.dragons) {
+        NSLog(@"%@", dragon.fullName);
+    }
+
     // Do any additional setup after loading the view.
 }
 
@@ -35,6 +42,7 @@
     Dragon *dragon = [self.dragons objectAtIndex:indexPath.row];
     cell.textLabel.text = dragon.fullName;
     cell.detailTextLabel.text = dragon.signatureClothingItem;
+
     return cell;
 }
 
