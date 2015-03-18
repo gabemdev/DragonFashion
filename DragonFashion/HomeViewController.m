@@ -53,8 +53,7 @@
     ClothingViewController *vc = segue.destinationViewController;
     vc.dragon = dragon;
     vc.title = dragon.fullName;
-    
-    
+
 }
 
 @end

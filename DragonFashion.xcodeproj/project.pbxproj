@@ -91,14 +91,14 @@
 				6DE4D2A01AB88421003D84CE /* AppDelegate.m */,
 				6DE4D2C11AB88432003D84CE /* HomeViewController.h */,
 				6DE4D2C21AB88432003D84CE /* HomeViewController.m */,
+				6DE4D2C71AB898D2003D84CE /* ClothingViewController.h */,
+				6DE4D2C81AB898D2003D84CE /* ClothingViewController.m */,
 				6DE4D2C41AB88B6E003D84CE /* Dragon.h */,
 				6DE4D2C51AB88B6E003D84CE /* Dragon.m */,
 				6DE4D2A51AB88421003D84CE /* Main.storyboard */,
 				6DE4D2A81AB88421003D84CE /* Images.xcassets */,
 				6DE4D2AA1AB88421003D84CE /* LaunchScreen.xib */,
 				6DE4D29B1AB88421003D84CE /* Supporting Files */,
-				6DE4D2C71AB898D2003D84CE /* ClothingViewController.h */,
-				6DE4D2C81AB898D2003D84CE /* ClothingViewController.m */,
 			);
 			path = DragonFashion;
 			sourceTree = "<group>";
